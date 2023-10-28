@@ -1,0 +1,17 @@
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\bin\Debug\net6.0\ShoppingBLLibrary.deps.json
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\bin\Debug\net6.0\ShoppingBLLibrary.dll
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\bin\Debug\net6.0\ShoppingBLLibrary.pdb
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\bin\Debug\net6.0\ShoppingDALLibrary.dll
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\bin\Debug\net6.0\ShoppingModelLibrary.dll
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\bin\Debug\net6.0\ShoppingDALLibrary.pdb
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\bin\Debug\net6.0\ShoppingModelLibrary.pdb
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\obj\Debug\net6.0\ShoppingBLLibrary.csproj.AssemblyReference.cache
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\obj\Debug\net6.0\ShoppingBLLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\obj\Debug\net6.0\ShoppingBLLibrary.AssemblyInfoInputs.cache
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\obj\Debug\net6.0\ShoppingBLLibrary.AssemblyInfo.cs
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\obj\Debug\net6.0\ShoppingBLLibrary.csproj.CoreCompileInputs.cache
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\obj\Debug\net6.0\ShoppingBLLibrary.csproj.CopyComplete
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\obj\Debug\net6.0\ShoppingBLLibrary.dll
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\obj\Debug\net6.0\refint\ShoppingBLLibrary.dll
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\obj\Debug\net6.0\ShoppingBLLibrary.pdb
+D:\day 1\ShoppingAppSolution\ShoppingBLLibrary\obj\Debug\net6.0\ref\ShoppingBLLibrary.dll

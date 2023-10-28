@@ -1,0 +1,14 @@
+D:\day 1\HealthHubSolution\HealthHub\obj\Debug\net6.0\HealthHub.GeneratedMSBuildEditorConfig.editorconfig
+D:\day 1\HealthHubSolution\HealthHub\obj\Debug\net6.0\HealthHub.AssemblyInfoInputs.cache
+D:\day 1\HealthHubSolution\HealthHub\obj\Debug\net6.0\HealthHub.AssemblyInfo.cs
+D:\day 1\HealthHubSolution\HealthHub\obj\Debug\net6.0\HealthHub.csproj.CoreCompileInputs.cache
+D:\day 1\HealthHubSolution\HealthHub\bin\Debug\net6.0\HealthHub.exe
+D:\day 1\HealthHubSolution\HealthHub\bin\Debug\net6.0\HealthHub.deps.json
+D:\day 1\HealthHubSolution\HealthHub\bin\Debug\net6.0\HealthHub.runtimeconfig.json
+D:\day 1\HealthHubSolution\HealthHub\bin\Debug\net6.0\HealthHub.dll
+D:\day 1\HealthHubSolution\HealthHub\bin\Debug\net6.0\HealthHub.pdb
+D:\day 1\HealthHubSolution\HealthHub\obj\Debug\net6.0\HealthHub.dll
+D:\day 1\HealthHubSolution\HealthHub\obj\Debug\net6.0\refint\HealthHub.dll
+D:\day 1\HealthHubSolution\HealthHub\obj\Debug\net6.0\HealthHub.pdb
+D:\day 1\HealthHubSolution\HealthHub\obj\Debug\net6.0\HealthHub.genruntimeconfig.cache
+D:\day 1\HealthHubSolution\HealthHub\obj\Debug\net6.0\ref\HealthHub.dll

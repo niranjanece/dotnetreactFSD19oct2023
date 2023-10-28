@@ -1,0 +1,17 @@
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\obj\Debug\net6.0\ClinicBLLibrary.csproj.AssemblyReference.cache
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\obj\Debug\net6.0\ClinicBLLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\obj\Debug\net6.0\ClinicBLLibrary.AssemblyInfoInputs.cache
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\obj\Debug\net6.0\ClinicBLLibrary.AssemblyInfo.cs
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\obj\Debug\net6.0\ClinicBLLibrary.csproj.CoreCompileInputs.cache
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\bin\Debug\net6.0\ClinicBLLibrary.deps.json
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\bin\Debug\net6.0\ClinicBLLibrary.dll
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\bin\Debug\net6.0\ClinicBLLibrary.pdb
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\bin\Debug\net6.0\ClinicDALibrary.dll
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\bin\Debug\net6.0\ClinicModelLibrary.dll
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\bin\Debug\net6.0\ClinicDALibrary.pdb
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\bin\Debug\net6.0\ClinicModelLibrary.pdb
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\obj\Debug\net6.0\ClinicBLLibrary.csproj.CopyComplete
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\obj\Debug\net6.0\ClinicBLLibrary.dll
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\obj\Debug\net6.0\refint\ClinicBLLibrary.dll
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\obj\Debug\net6.0\ClinicBLLibrary.pdb
+D:\day 1\ClinicAppSolution\ClinicBLLibrary\obj\Debug\net6.0\ref\ClinicBLLibrary.dll

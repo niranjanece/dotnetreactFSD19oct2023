@@ -6,7 +6,11 @@ select *from titles
 
 select * from sales
 
+select * from titleauthor
+
 select * from publishers
+
+select * from employee
 
 --projectiion it will not change in the table only to display with that name
 

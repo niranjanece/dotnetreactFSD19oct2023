@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\day 1\\ShoppingAppSolution\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj": {}
+    "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj": {}
   },
   "projects": {
-    "D:\\day 1\\ShoppingAppSolution\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj": {
+    "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\day 1\\ShoppingAppSolution\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj",
+        "projectUniqueName": "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj",
         "projectName": "ShoppingBLLibrary",
-        "projectPath": "D:\\day 1\\ShoppingAppSolution\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj",
-        "packagesPath": "C:\\Users\\dhiva\\.nuget\\packages\\",
-        "outputPath": "D:\\day 1\\ShoppingAppSolution\\ShoppingBLLibrary\\obj\\",
+        "projectPath": "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj",
+        "packagesPath": "C:\\Users\\niran\\.nuget\\packages\\",
+        "outputPath": "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingBLLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dhiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\niran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\day 1\\ShoppingAppSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj": {
-                "projectPath": "D:\\day 1\\ShoppingAppSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj"
+              "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj": {
+                "projectPath": "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj"
               },
-              "D:\\day 1\\ShoppingAppSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj": {
-                "projectPath": "D:\\day 1\\ShoppingAppSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj"
+              "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj": {
+                "projectPath": "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj"
               }
             }
           }
@@ -62,21 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\day 1\\ShoppingAppSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj": {
+    "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\day 1\\ShoppingAppSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj",
+        "projectUniqueName": "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj",
         "projectName": "ShoppingDALLibrary",
-        "projectPath": "D:\\day 1\\ShoppingAppSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj",
-        "packagesPath": "C:\\Users\\dhiva\\.nuget\\packages\\",
-        "outputPath": "D:\\day 1\\ShoppingAppSolution\\ShoppingDALLibrary\\obj\\",
+        "projectPath": "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj",
+        "packagesPath": "C:\\Users\\niran\\.nuget\\packages\\",
+        "outputPath": "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingDALLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dhiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\niran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,8 +90,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\day 1\\ShoppingAppSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj": {
-                "projectPath": "D:\\day 1\\ShoppingAppSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj"
+              "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj": {
+                "projectPath": "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj"
               }
             }
           }
@@ -121,21 +121,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\day 1\\ShoppingAppSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj": {
+    "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\day 1\\ShoppingAppSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj",
+        "projectUniqueName": "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj",
         "projectName": "ShoppingModelLibrary",
-        "projectPath": "D:\\day 1\\ShoppingAppSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj",
-        "packagesPath": "C:\\Users\\dhiva\\.nuget\\packages\\",
-        "outputPath": "D:\\day 1\\ShoppingAppSolution\\ShoppingModelLibrary\\obj\\",
+        "projectPath": "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj",
+        "packagesPath": "C:\\Users\\niran\\.nuget\\packages\\",
+        "outputPath": "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingModelLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dhiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\niran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -176,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

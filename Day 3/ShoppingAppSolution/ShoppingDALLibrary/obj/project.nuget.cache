@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ICNFyCYbRBQVLsESrKoo72ytwKVv1gSz/IbeoS4XjUqmsRZzWreWsYOY30CWyKUNoJ05BbZ1L99651DP88kliQ==",
+  "dgSpecHash": "bVHLO8s+6D+j2HP3eYs4McDRUM/McFi/KvyxX532AQVkdrB6tXZJqGpNAGCbC0p6eRnsIGPoRQ5dgwNRdd4M+A==",
   "success": true,
-  "projectFilePath": "D:\\day 1\\ShoppingAppSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj",
+  "projectFilePath": "C:\\Hexaware\\Day 3\\ShoppingAppSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

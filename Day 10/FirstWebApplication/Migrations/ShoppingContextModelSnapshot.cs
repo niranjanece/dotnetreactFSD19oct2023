@@ -38,6 +38,27 @@ namespace FirstWebApplication.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("FirstWebApplication.Models.Customer", b =>
+                {
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("Age")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Email");
+
+                    b.ToTable("Customers");
+                });
+
             modelBuilder.Entity("FirstWebApplication.Models.Product", b =>
                 {
                     b.Property<int>("Id")

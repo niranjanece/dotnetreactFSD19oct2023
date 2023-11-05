@@ -22,6 +22,8 @@ namespace FirstWebApplication
             });
             builder.Services.AddScoped<IRepository<int, Product>, ProductRepositoryDb>();
             builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<IRepository<string, Customer>, CustomerRepository>();
+            builder.Services.AddScoped<ICustomerService, CustomerService>();
 
             var app = builder.Build();
 

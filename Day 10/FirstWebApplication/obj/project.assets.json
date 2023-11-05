@@ -10691,11 +10691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Hexaware\\Day 10\\FirstWebSolution\\FirstWebApplication\\FirstWebApplication.csproj",
+      "projectUniqueName": "C:\\Hexaware\\Day 10\\FirstWebApplication\\FirstWebApplication.csproj",
       "projectName": "FirstWebApplication",
-      "projectPath": "C:\\Hexaware\\Day 10\\FirstWebSolution\\FirstWebApplication\\FirstWebApplication.csproj",
+      "projectPath": "C:\\Hexaware\\Day 10\\FirstWebApplication\\FirstWebApplication.csproj",
       "packagesPath": "C:\\Users\\niran\\.nuget\\packages\\",
-      "outputPath": "C:\\Hexaware\\Day 10\\FirstWebSolution\\FirstWebApplication\\obj\\",
+      "outputPath": "C:\\Hexaware\\Day 10\\FirstWebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\niran\\AppData\\Roaming\\NuGet\\NuGet.Config",

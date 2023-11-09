@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ShoppingApp.Interfaces;
+using ShoppingApp.Models;
 using ShoppingApp.Models.DTOs;
 
 namespace ShoppingApp.Controllers
@@ -23,28 +24,34 @@ namespace ShoppingApp.Controllers
             try
             {
                 var user = _userService.Register(viewModel);
-                if(user != null)
+                if (user != null)
                 {
                     return Ok(user);
                 }
             }
-            catch (DbUpdateException exp) {
+            catch (DbUpdateException exp)
+            {
                 message = "Duplicate username";
             }
-            catch(Exception) { 
-                
+            catch (Exception)
+            {
+
             }
+
+
             return BadRequest(message);
         }
-        [HttpGet]
-        public ActionResult Login(UserDTO viewModel) {
-            string message = "Invalid username or password";
-            var user = _userService.Login(viewModel);
-            if (user != null)
+
+        [HttpPost]
+        [Route("Login")]//attribute based routing
+        public ActionResult Login(UserDTO userDTO)
+        {
+            var result = _userService.Login(userDTO);
+            if (result != null)
             {
-                return Ok(user);
+                return Ok(result);
             }
-            return BadRequest(message);
+            return Unauthorized("Invalid username or password");
         }
     }
 }

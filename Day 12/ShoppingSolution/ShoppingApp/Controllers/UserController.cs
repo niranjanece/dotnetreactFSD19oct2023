@@ -42,23 +42,19 @@ namespace ShoppingApp.Controllers
             return View();
         }
         public IActionResult Login()
-        { 
-            return View(); 
+        {
+            return View();
         }
         [HttpPost]
-        public IActionResult Login(UserDTO user) {
-            var result = _userService.Login(user);
-            if(result != null)
+        public IActionResult Login(UserDTO userDTO)
+        {
+            var result = _userService.Login(userDTO);
+            if (result != null)
             {
-                TempData.Add("username",user.Username);
+                TempData.Add("username", userDTO.Username);
                 return RedirectToAction("Index", "Home");
             }
-            //used to show error message
-            // ModelState.AddModelError(string.Empty, "Invalid user name or password");
-
-            //alternate method to show error if we use this method need to add something in views
             ViewData["Message"] = "Invalid username or password";
-            //alternate met
             return View();
         }
     }

@@ -1,12 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-import Product from './components/Product';
-import Second from './components/Second';
+
+import AddProduct from './components/AddProduct';
+import Products from './components/Products';
 
 function App() {
   return (
     <div className="App">
-      <Product/>
+      <div className="container text-center">
+        <div className="row">
+          <div className="col">
+            <Products/>
+          </div>
+          <div className="col">
+            <AddProduct/>
+          </div>
+          
+        </div>
+</div>
     </div>
   );
 }

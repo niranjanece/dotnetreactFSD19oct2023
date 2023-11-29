@@ -515,3 +515,148 @@ Error Number:2627,State:1,Class:14
 SET NOCOUNT ON;
 INSERT INTO [Users] ([Username], [Key], [Password], [Role])
 VALUES (@p0, @p1, @p2, @p3);
+2023-11-27 09:13:44,389 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5280
+2023-11-27 09:13:44,504 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-27 09:13:44,511 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-27 09:13:44,514 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: C:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\
+2023-11-27 09:37:21,085 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-27 09:37:23,445 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (112ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-11-27 09:37:23,591 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2023-11-27 09:37:23,722 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[31] - Product Listed
+2023-11-27 09:37:23,819 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-27 09:37:23,832 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-11-27 09:37:23,839 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2023-11-27 09:37:23,846 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[31] - Product Listed
+2023-11-27 09:37:23,930 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-27 09:37:23,939 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-11-27 09:37:23,947 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2023-11-27 09:37:23,952 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[31] - Product Listed
+2023-11-27 09:44:00,232 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-27 09:44:01,033 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (53ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-11-27 09:44:01,039 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2023-11-27 09:44:01,044 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[31] - Product Listed
+2023-11-28 09:08:02,742 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5280
+2023-11-28 09:08:02,938 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-28 09:08:02,951 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-28 09:08:02,957 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: C:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\
+2023-11-28 12:13:21,114 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:13:23,734 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (156ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-28 12:13:55,357 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:13:55,385 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (5ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-28 12:14:11,835 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:14:11,846 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-28 12:16:03,613 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:16:03,623 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (4ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-28 12:16:10,027 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:16:10,036 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-28 12:16:15,866 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:16:15,875 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-28 12:16:16,568 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:16:16,578 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-28 12:16:16,726 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:16:16,734 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-28 12:16:16,872 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:16:16,881 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-28 12:16:17,037 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:16:17,046 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-28 12:16:17,256 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:16:17,263 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-28 12:16:25,846 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:16:25,856 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-28 12:18:50,934 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:18:51,072 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-11-28 12:18:51,101 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2023-11-28 12:18:51,168 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[31] - Product Listed
+2023-11-28 12:18:51,710 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:18:51,716 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-11-28 12:18:51,724 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2023-11-28 12:18:51,729 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[31] - Product Listed
+2023-11-28 12:18:59,855 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:18:59,863 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-11-28 12:18:59,869 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2023-11-28 12:18:59,873 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[31] - Product Listed
+2023-11-28 12:19:06,064 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:19:06,072 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-11-28 12:19:06,079 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2023-11-28 12:19:06,084 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[31] - Product Listed
+2023-11-28 12:20:55,171 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:20:55,181 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-28 12:20:59,777 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-28 12:20:59,785 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-11-28 12:20:59,791 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2023-11-28 12:20:59,795 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[31] - Product Listed
